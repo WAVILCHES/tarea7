@@ -1,0 +1,135 @@
+@media (max-width: 320px) {
+
+    .tab {
+        display: none;
+    }
+
+    .desktop {
+        display: none;
+    }
+    
+    .mobile {
+        width: 300px;
+        height: 160px;
+        margin: 5px;
+    }
+
+    .caja1 {
+        background: red;
+    }
+
+    .caja2 {
+        background: blue;
+    }
+
+    .caja3 {
+        background: blueviolet;
+    }
+
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+    
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        width: 370px;
+        height: 160px;
+        margin: 5px;
+        grid-column-start: 1;
+    }
+
+    .caja1 {
+        background: blueviolet;
+    }
+
+    .caja2 {
+        background: red;
+    }
+
+    .caja3 {
+        background: blue;
+    }
+
+    .tab {
+        width: 370px;
+        height: 160px;
+        margin: 5px;
+        grid-column-start: 2;
+    }
+
+    .caja4 {
+        background: green;
+    }
+
+    .caja5 {
+        background: yellow;
+    }
+
+    .caja6 {
+        background: orangered;
+    }
+}
+
+@media (min-width: 769px) {
+
+    .mobile {
+        width: 320px;
+        height: 160px;
+        margin: 5px;
+        grid-column-start: 1;
+    }
+
+    .caja1 {
+        background: blue;
+    }
+
+    .caja2 {
+        background: blueviolet;
+    }
+
+    .caja3 {
+        background: red;
+    }
+
+    .tab {
+        width: 320px;
+        height: 160px;
+        margin: 5px;
+        grid-column-start: 2;
+    }
+
+    .caja4 {
+        background: yellow;
+    }
+
+    .caja5 {
+        background: orangered;
+    }
+
+    .caja6 {
+        background: green;
+    }
+
+    .desktop {
+        width: 320px;
+        height: 160px;
+        margin: 5px;
+        grid-column-start: 3;
+    }
+
+    .caja7 {
+        background: black;
+    }
+
+    .caja8 {
+        background: salmon;
+    }
+
+    .caja9 {
+        background: gray;
+    }
+
+}
